@@ -1,0 +1,31 @@
+{
+  "name": "phaser-template",
+  "version": "1.0.0",
+  "description": "Phaser template based on https://snowbillr.github.io/blog//2018-04-09-a-modern-web-development-setup-for-phaser-3/",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "webpack-dev-server": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuel-knutson/phaser-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuel-knutson/phaser-template/issues"
+  },
+  "homepage": "https://github.com/samuel-knutson/phaser-template#readme",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "phaser": "^3.22.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
